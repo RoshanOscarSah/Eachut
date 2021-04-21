@@ -1,0 +1,61 @@
+/* font */
+  @font-face {
+    font-family: 'SofiaProRegularAz';
+    font-style: normal;
+    font-weight: 100;
+    src: url("../font/Sofia/SofiaProRegularAz.otf");
+  }
+
+  @font-face {
+    font-family: 'SofiaProLightAz';
+    font-style: light;
+    font-weight: 100;
+    src: url("../font/Sofia/SofiaProLightAz.otf");
+  }
+
+  @font-face {
+    font-family: 'SofiaProBlackAz';
+    font-style: bold;
+    font-weight: 100;
+    src: url("../font/Sofia/SofiaProBlackAz.otf");
+  }
+/* Theme */
+  :root {
+    --TextColor: #ffffff;
+    --ActiveTextColor: #03DAC5;
+    --SecondaryTextColor: #BB86FC;
+    --WarningTextColor: #FF5C5C;
+    --BackgroundColor: #515151;
+  }
+
+  body{
+    min-height: 1200px;
+    font-family: 'sofiaProRegularAz';
+    background-color: var(--BackgroundColor);
+  }
+
+  /* header */
+
+.hdr{
+  /* padding: 25px 0px 15px 0px; */
+}
+
+.logoheader{
+  margin-left: 80px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+hr{
+  margin: 0px;
+  background-color: white;
+}
+
+.h2Investors{
+  color: var(--TextColor);
+  font-family: "SofiaProLightAz" ;
+  font-size: 22px;
+  margin-right: 80px;
+  margin-top: 55px;
+  /* margin-bottom: 15px; */
+}
