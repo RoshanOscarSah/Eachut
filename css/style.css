@@ -26,10 +26,15 @@
     --SecondaryTextColor: #BB86FC;
     --WarningTextColor: #FF5C5C;
     --BackgroundColor: #515151;
+
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
   }
 
   body{
-    min-height: 1200px;
+    /* min-height: 1200px; */
     font-family: 'sofiaProRegularAz';
     background-color: var(--BackgroundColor);
   }
@@ -58,4 +63,90 @@ hr{
   margin-right: 80px;
   margin-top: 55px;
   /* margin-bottom: 15px; */
+}
+
+/* iframe[seamless] { */
+  /* border: none; */
+  /* width: 100%; */
+  /* height: 84vh; */
+/* } */
+
+.carousel {
+  position: inherit;
+  padding-top: 5%;
+}
+
+.productInfo{
+  margin-top: 100px;
+  font-family: "SofiaProRegularAz";
+ font-size: 22px;
+ line-height: 27px;
+ text-align: center;
+ color: var(--TextColor); 
+}
+
+.buttonAction{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.buttonAction2{
+  display: none;
+}
+
+
+
+/* smaller device */
+@media only screen and (max-width: 768px) {
+  .logoheader{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 50px;
+  }
+
+  .h2Investors{
+    color: var(--TextColor);
+    font-family: "SofiaProLightAz";
+    font-size: 14px;
+    margin-right: 0px;
+    margin-top: -30px;
+    margin-bottom: 15px;
+  }
+
+  .mobVer{
+    padding: 15px;
+  }
+
+  .productInfo {
+    margin-top: 50px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .buttonAction{
+    display: none;
+  }
+
+  .buttonAction2{
+    display: block;
+  margin-top: 80px;
+  text-align: center;
+  }
+
+  .mobtn1{
+    margin-right: 25px;
+  }
+
+  .mobtn2{
+    margin-left: 25px;
+  }
+
+  .forthis{
+    margin-top: 30px;
+  }
+
+
+  
+
 }
