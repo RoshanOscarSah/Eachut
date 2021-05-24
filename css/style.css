@@ -33,6 +33,44 @@
     user-select: none; /* Standard */
   }
 
+  .pointer{
+    color: var(--TextColor);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .pointer:hover, .pointer:focus{
+    color: var(--ActiveTextColor);
+    text-decoration: none;
+  }
+
+  .activepointer{
+    color: var(--ActiveTextColor);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .activepointer:hover, .activepointer:focus{
+    color: var(--TextColor);
+    text-decoration: none;
+  }
+
+  .activeColor{
+    color: var(--ActiveTextColor);
+  }
+
+  .whiteColor{
+    color: var(--TextColor);
+  }
+
+  .secondaryColor{
+    color: var(--SecondaryTextColor);
+  }
+
+  .warningColor{
+    color: var(--WarningTextColor);
+  }
+
   body{
     /* min-height: 1200px; */
     font-family: 'sofiaProRegularAz';
@@ -55,6 +93,7 @@ hr{
   margin: 0px;
   background-color: white;
 }
+
 
 .h2Investors{
   color: var(--TextColor);
@@ -94,7 +133,62 @@ hr{
   display: none;
 }
 
+.carousel-control {
+  top: 12%;
+}
 
+.carousel-control.right, .carousel-control.left {
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+}
+
+
+/* investors page  */
+.termCondition{
+  position: absolute;
+right:    5%;
+bottom:   0;
+}
+
+.inBG{
+  height: 84vh;
+  /* overflow: scroll; */
+  padding: 0% 10% ;
+}
+
+.fltleft{
+  float: left;
+}
+
+.fltright{
+  float: right;
+}
+
+/* termCondition */
+.termContent{
+  height: 73vh; 
+  overflow-y: scroll; 
+  color: white;
+}
+
+/* width */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+*::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+*::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
 /* smaller device */
 @media only screen and (max-width: 768px) {
@@ -147,6 +241,13 @@ hr{
   }
 
 
+  .mobisze{
+    width: 250px;
+  }
+
+  .floatRightsm{
+    text-align: right;
+  }
   
 
 }
