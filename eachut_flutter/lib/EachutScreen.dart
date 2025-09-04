@@ -465,7 +465,8 @@ class _EachutScreenState extends State<EachutScreen> {
                                       width: 18,
                                       color: Colors.white),
                                   onPressed: () async {
-                                    _launchUrl('https://nepaligallery.com');
+                                    _launchUrl(
+                                        'https://demo.eachut.com/NepaliGallery%20PHP/');
                                   },
                                   label: const Text(
                                     "Website",
@@ -668,7 +669,8 @@ class _EachutScreenState extends State<EachutScreen> {
                                       width: 18,
                                       color: Colors.white),
                                   onPressed: () async {
-                                    _launchUrl("https://control.eachut.com/");
+                                    _launchUrl(
+                                        "https://github.com/RoshanOscarSah/control");
                                   },
                                   label: const Text(
                                     "Website",
