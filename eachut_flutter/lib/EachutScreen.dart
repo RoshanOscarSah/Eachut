@@ -673,7 +673,7 @@ class _EachutScreenState extends State<EachutScreen> {
                                         "https://github.com/RoshanOscarSah/control");
                                   },
                                   label: const Text(
-                                    "Website",
+                                    "Github",
                                     style: TextStyle(color: Colors.white),
                                   ),
                                 ),
