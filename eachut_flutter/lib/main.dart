@@ -1,8 +1,11 @@
 import 'package:eachut/EachutScreen.dart';
 import 'package:flutter/material.dart';
 
+import 'hide_loading_stub.dart' if (dart.library.html) 'hide_loading_web.dart' as loading_util;
+
 void main() {
   runApp(const MyApp());
+  WidgetsBinding.instance.addPostFrameCallback((_) => loading_util.hideLoading());
 }
 
 class MyApp extends StatelessWidget {
