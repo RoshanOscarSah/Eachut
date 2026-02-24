@@ -1,6 +1,6 @@
 # eachut
 
-A new Flutter project.
+STRIVE FOR GREATNESS.
 
 ## Getting Started
 
